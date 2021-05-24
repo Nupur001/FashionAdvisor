@@ -1,0 +1,349 @@
+﻿body {
+    font-family: Verdana;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    padding: 0px;
+    margin:0px;
+}
+.wrapper {
+    position:relative;
+    overflow-x: hidden;
+}
+.container-fluid{
+    margin:0px;
+    padding:0px;
+}
+.logo{
+    width:250px;
+    height:auto;
+}
+#home{
+    background-image:url("../images/home-bg.PNG");
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+.in-touch, .in-touch:hover {
+    background-color: #e52f37;
+    border: 2px solid #e52f37;
+    border-radius: 30px;
+    color: white;
+    font-size:1.2em;
+    font-weight: 400;
+    width:150px;
+    text-align:center;
+    padding:10px;
+}
+.contact-button{
+    padding:10px;
+    margin-top:20px;
+    margin-right:20px;
+    text-align:center;
+}
+.button-holder {
+    padding-top: 2%;
+    text-align: right;
+}
+.home-pic{
+    width:50%;
+    height:auto;
+    margin-left: 30%;
+}
+.intro{
+    text-align:center;
+    padding:8%;
+}
+.card:hover {
+    border: 2px solid #000;
+}
+.styled, .styled:hover{
+
+    width:250px;
+   
+}
+.red {
+    color: #e52f37;
+    font-weight:500;
+}
+.about-content {
+    text-align: center;
+    font-size: 1.3em;
+    color:white;
+    font-weight: 400;
+    height:500px;
+
+    padding:10%;
+    background-color: RGBA(229,47,55,0.5);
+}
+
+.parallex {
+    margin:0px;
+    /* The image used */
+    background-image: url("../images/rach2.jpg");
+    /* Set a specific height */
+    height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-btn {
+    color: white;
+    border: 1px solid white;
+    background-color: RGBA(229,47,55,0.7);
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-weight: 500;
+}
+.about-btn:hover
+{
+        background-color: white;
+        color: RGBA(229,47,55,0.7);
+        box-shadow:3px 3px 18px #000;
+}
+.service-work {
+    padding: 30px;
+    font-weight: 500;
+    font-size: 1.5em;
+}
+.section-title {
+    font-weight: 500;
+    font-size:1.5em;
+
+}
+.number {
+    background-color: #e52f37;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 100%;
+}
+.work {
+    background-color: #f1faff;
+    padding-left: 50px;
+    padding-bottom:50px;
+}
+.what-we-do {
+    padding: 8px;
+    padding-bottom:0px;
+}
+.we-do {
+    width: 90%;
+    height: 380px;
+    background-color: #f1faff;
+}
+.work-offer {
+    padding: 5% 0%;
+    background-color: #f1faff;
+    margin: 0%;
+}
+.offer{
+    text-align:center;
+}
+.offer-btn {
+    background-color: #e52f37;
+    color: white;
+    padding: 10px 30px;
+    font-size: 1.2em;
+    border-radius: 10px;
+    width: 300px;
+    border: 2px solid #e52f37;
+    font-weight: 400;
+}
+.offer-btn:hover {
+        
+        color: #fff;
+}
+.brand-bar {
+    background-color: #2f3640;
+}
+.brand {
+    height: 70px;
+    text-align: center;
+    padding-top: 23px;
+    font-weight: 200;
+    border-right: 1px solid #dfe4ea;
+    color: #dfe4ea;
+}
+.testimonal-title {
+    text-align: center;
+    padding:30px 20px;
+}
+.testimonal-block {
+    display: inline-block;
+    padding: 10px 5%;
+    text-align:center;
+}
+.testimonal-image {
+    text-align: center;
+    width: 100%;
+    height: 350px;
+}
+.img-block-1 {
+    background: url("../images/testimonal-1-1.jpeg");
+    background-repeat: no-repeat;
+    background-size: 271px 350px;
+    background-position: center;
+}
+.img-block-2 {
+    background: url("../images/testimonal-2-1.jpeg");
+    background-repeat: no-repeat;
+    background-size: 271px 350px;
+    background-position: center;
+}
+.img-block-3 {
+    background: url("../images/testimonal-3-1.jpeg");
+    background-repeat: no-repeat;
+    background-size: 271px 350px;
+    background-position: center;
+}
+.img-block-1:hover {
+    background: url("../images/testimonal-1-2.jpeg");
+    background-repeat: no-repeat;
+    background-size: 271px 350px;
+    background-position: center;
+}
+
+.img-block-2:hover {
+    background: url("../images/testimonal-2-2.jpeg");
+    background-repeat: no-repeat;
+    background-size: 271px 350px;
+    background-position: center;
+}
+
+.img-block-3:hover {
+    background: url("../images/testimonal-3-2.jpeg");
+    background-repeat: no-repeat;
+    background-size: 271px 350px;
+    background-position: center;
+}
+.testimonal-content{
+
+    padding-top:10px;
+    min-height:155px;
+}
+.testimonal-footer{
+    text-align:left;
+    font-style:italic;
+    margin-bottom:15px;
+}
+
+a, a:hover{
+    text-decoration:none;
+}
+.card {
+    margin: 3%;
+    margin-right:0px;
+    font-weight:700;
+    font-style:italic;
+}
+.card-header,.card-footer,.card-content{
+    background-color:white;
+}
+#pricing {
+    padding:50px 50px;
+    text-align: center;
+    background-color: #f1faff;
+}
+.contact-parallex {
+    margin: 0px;
+    /* The image used */
+    background-image: url("../images/pick.PNG");
+    /* Set a specific height */
+    height: auto;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact-content {
+
+    text-align: center;
+    font-size: 1.3em;
+    color: white;
+    font-weight: 400;
+    height: auto;
+    background-color: RGBA(229,47,55,0.6);
+}
+.contact-title{
+    padding:4% 0%;
+}
+.font-white,.font-white:hover{
+    color:white;
+}
+.input, .input:focus {
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 10px;
+    height: 50px;
+}
+textarea.input:focus {
+    height: inherit;
+}
+.message, .message :focus {
+    height: 255px;
+}
+.form-1{
+    text-align:left;
+    font-size:0.9em;
+    font-weight:400;
+    margin:0px 10px 0px 10px;
+}
+footer img{
+    height:80px;
+    width:auto
+}
+.submit-btn, .submit-btn:hover {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+    color: RGB(229,47,55);
+    padding: 15px 25px;
+    font-weight: 500;
+}
+.submit-btn:hover{
+        box-shadow:2px 2px 18px black;
+    }
+.footer__row {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 25px 40px;
+    padding-top: 20px;
+    align-items: center;
+
+}
+.footer__social {
+    display: flex;
+}
+.footer__social p {
+        margin: 0 8px;
+        width: 52px;
+        text-align: center;
+        border-radius: 50%;
+        padding: 13px 0px;
+        transition: all 0.4s;
+ }
+.footer__social p a {
+            color: #000;
+        }
+.footer__social p:hover {
+            background-color:RGBA(229,47,55,0.4);
+
+        }
+.footer__social p:hover a {
+                color: #141E30;
+            }
+
+.footer__copyright {
+    font-size: 18px;
+    text-align:center;
+}
+
+.footer__copyright p a {
+        color: #2196F3;
+        letter-spacing: 4px;
+    }
+textarea.form-control {
+    height: inherit;
+}
